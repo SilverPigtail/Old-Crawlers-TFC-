@@ -139,10 +139,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 265088550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c1224820a32448a4bfe613f22727a, type: 3}
+  m_Script: {fileID: 11500000, guid: d293e231c3c803640be737f022e4596d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: TileMapSecond
 --- !u!61 &265088552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -255,10 +254,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 633473149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c1224820a32448a4bfe613f22727a, type: 3}
+  m_Script: {fileID: 11500000, guid: d293e231c3c803640be737f022e4596d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: TileMapSecond
 --- !u!61 &633473151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10774,10 +10772,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1216477701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c1224820a32448a4bfe613f22727a, type: 3}
+  m_Script: {fileID: 11500000, guid: d293e231c3c803640be737f022e4596d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: TileMapSecond
 --- !u!61 &1216477703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10845,10 +10842,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1983684576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c1224820a32448a4bfe613f22727a, type: 3}
+  m_Script: {fileID: 11500000, guid: d293e231c3c803640be737f022e4596d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: TileMapSecond
 --- !u!61 &1983684578
 BoxCollider2D:
   m_ObjectHideFlags: 0

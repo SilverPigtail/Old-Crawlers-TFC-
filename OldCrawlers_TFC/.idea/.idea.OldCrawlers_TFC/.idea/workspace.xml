@@ -12,7 +12,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,6 +27,9 @@
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType3.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +94,16 @@
       <workItem from="1586793398220" duration="463000" />
       <workItem from="1586793948948" duration="150000" />
       <workItem from="1586794158358" duration="5000" />
+      <workItem from="1586796628250" duration="38000" />
+      <workItem from="1586796770696" duration="119000" />
+      <workItem from="1586796952308" duration="350000" />
+      <workItem from="1586802104031" duration="151000" />
+      <workItem from="1586802412450" duration="3000" />
+      <workItem from="1586802437453" duration="7000" />
+      <workItem from="1586802494555" duration="10000" />
+      <workItem from="1586802519643" duration="9000" />
+      <workItem from="1586802668824" duration="111000" />
+      <workItem from="1586802904613" duration="180000" />
     </task>
     <servers />
   </component>

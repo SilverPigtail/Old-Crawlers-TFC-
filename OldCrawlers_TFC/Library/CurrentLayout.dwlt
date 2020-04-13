@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -76,7 +76,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 17
+  controlID: 75
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,20 +396,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aleja\Old-Crawlers-TFC-\OldCrawlers_TFC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d00b0000
-    m_LastClickedID: 3024
-    m_ExpandedIDs: 00000000a8090000f4090000220a00002a0b00004e0c0000b0290000b2290000b429000000ca9a3b
+    m_SelectedIDs: 100a0000
+    m_LastClickedID: 2576
+    m_ExpandedIDs: 00000000a8090000f4090000240a00002e0b00005a0c0000d2290000d4290000d629000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,7 +437,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8090000f4090000220a00002a0b00004e0c0000b0290000b2290000b4290000
+    m_ExpandedIDs: 00000000a8090000f4090000240a00002e0b00005a0c0000d2290000d4290000d6290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,7 +558,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d89effffa0a0ffffeca5ffff12a6fffff0c6ffff5acbffff90cbffff4ad0ffff92d5ffff78ddffffe6deffff34dfffffacdfffffecdfffff78efffff8cefffffdcfbffffc60c0000762d0000b22e00007e32000088320000
+      m_ExpandedIDs: c0e8ffffa4eaffffc8eeffff88efffff0cf2ffff9af7fffff2f7ffff36f9ffffdcfbfffff02a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -613,9 +613,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.3760962, y: 0.07776511, z: 1.0644531}
+    m_Target: {x: 3.4218783, y: -0.2011657, z: 1.0859375}
     speed: 2
-    m_Value: {x: 2.3760962, y: 0.07776511, z: 1.0644531}
+    m_Value: {x: 3.4218783, y: -0.2011657, z: 1.0859375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -647,9 +647,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.097534
+    m_Target: 11.526452
     speed: 2
-    m_Value: 12.097534
+    m_Value: 11.526452
   m_Ortho:
     m_Target: 1
     speed: 2
