@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.UIElements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Random = System.Random;
+using Random = UnityEngine.Random;
+
 
 public class TransitionType1 : MonoBehaviour
 {
@@ -12,27 +13,48 @@ public class TransitionType1 : MonoBehaviour
     private int mapRandomValue;
     private int[] numberToChoose = new int[] {1, 2, 3};
     private int generatedNumber;
+
     
+    IEnumerator RecalculateRandom()
+    {
+        while (true)
+        {
+            Debug.Log("Recalculando random de niveles...");
+            mapRandomValue = UnityEngine.Random.Range(1, 3);    
+            yield return new WaitForSeconds(1);
+        }
+        
+        
+    }
+    
+    private void Start()
+    {
+
+        StartCoroutine(RecalculateRandom());
+    }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         
-        Random rnd = new Random();
-        mapRandomValue = rnd.Next(numberToChoose.Length);
+        
+       
+        mapRandomValue = UnityEngine.Random.Range(1, 3);
         generatedNumber = numberToChoose[mapRandomValue];
+            
+            Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
 
-            if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 1)
+
+            if (SceneManager.GetActiveScene().buildIndex == generatedNumber)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                mapRandomValue = UnityEngine.Random.Range(1, 3);
+                SceneManager.LoadScene(generatedNumber);
             }
-
-            if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 2)
+            else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+                SceneManager.LoadScene(generatedNumber);
+                
             }
             
-            if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 3)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
-            }
+           
     }
 }

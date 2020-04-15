@@ -13,18 +13,13 @@ public class TransitionType3 : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         
-        Random rnd = new Random();
-        mapRandomValue = rnd.Next(numberToChoose.Length);
+        mapRandomValue = UnityEngine.Random.Range(1, 3);
         generatedNumber = numberToChoose[mapRandomValue];
+            
+        Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
 
-        if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 1)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-
-        if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 2)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        SceneManager.LoadScene(generatedNumber);
+        mapRandomValue = UnityEngine.Random.Range(1, 3);
     }
+    
 }

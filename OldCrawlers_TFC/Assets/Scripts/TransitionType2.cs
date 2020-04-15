@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Random = System.Random;
 
 public class TransitionType2 : MonoBehaviour
 {
@@ -14,20 +13,12 @@ public class TransitionType2 : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
 
-        Random rnd = new Random();
-        //mapRandomValue = rnd.Next(0, 3);
-        mapRandomValue = rnd.Next(numberToChoose.Length);
+        mapRandomValue = UnityEngine.Random.Range(2, 3);
         generatedNumber = numberToChoose[mapRandomValue];
+            
+        Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
 
-        if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 1)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-
-
-        if (other.CompareTag("Player") && !other.isTrigger && mapRandomValue == 3)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
-        }
+        SceneManager.LoadScene(generatedNumber);
+        mapRandomValue = UnityEngine.Random.Range(2, 3);
     }
 }
