@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\IsometricCharacterRenderer.cs" />
     <Compile Include="Assets\Scripts\IsometricMovement.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
+    <Compile Include="Assets\Scripts\LoadGameFromLoading.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

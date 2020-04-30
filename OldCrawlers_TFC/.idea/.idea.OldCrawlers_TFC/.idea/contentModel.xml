@@ -12,6 +12,7 @@
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricMovement.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />
+          <e p="LoadGameFromLoading.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
