@@ -11,7 +11,7 @@ public class TransitionType1 : MonoBehaviour
 {
     //public String sceneToLoad;
     private int mapRandomValue;
-    private int[] numberToChoose = new int[] {1, 2, 3};
+    private int[] numberToChoose = new int[] {1, 2, 3, 4, 5};
     private int generatedNumber;
 
     
@@ -20,7 +20,7 @@ public class TransitionType1 : MonoBehaviour
         while (true)
         {
             Debug.Log("Recalculando random de niveles...");
-            mapRandomValue = UnityEngine.Random.Range(1, 3);    
+            mapRandomValue = UnityEngine.Random.Range(0, 5);    
             yield return new WaitForSeconds(1);
         }
         
@@ -38,7 +38,7 @@ public class TransitionType1 : MonoBehaviour
         
         
        
-        mapRandomValue = UnityEngine.Random.Range(1, 3);
+        mapRandomValue = UnityEngine.Random.Range(0, 5);
         generatedNumber = numberToChoose[mapRandomValue];
             
             Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
@@ -46,7 +46,7 @@ public class TransitionType1 : MonoBehaviour
 
             if (SceneManager.GetActiveScene().buildIndex == generatedNumber)
             {
-                mapRandomValue = UnityEngine.Random.Range(1, 3);
+                mapRandomValue = UnityEngine.Random.Range(0, 5);
                 SceneManager.LoadScene(generatedNumber);
             }
             else

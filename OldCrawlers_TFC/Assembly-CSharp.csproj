@@ -61,8 +61,11 @@
     <Compile Include="Assets\Scripts\HideColliderColor.cs" />
     <Compile Include="Assets\Scripts\IsometricCharacterRenderer.cs" />
     <Compile Include="Assets\Scripts\IsometricMovement.cs" />
+    <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement1.cs" />
     <Compile Include="Assets\Scripts\RandomTransition.cs" />
     <Compile Include="Assets\Scripts\TransitionType1.cs" />
     <Compile Include="Assets\Scripts\TransitionType2.cs" />

@@ -11,8 +11,11 @@
           <e p="HideColliderColor.cs" t="Include" />
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricMovement.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PlayerMovement1.cs" t="Include" />
           <e p="RandomTransition.cs" t="Include" />
           <e p="TransitionType1.cs" t="Include" />
           <e p="TransitionType2.cs" t="Include" />
