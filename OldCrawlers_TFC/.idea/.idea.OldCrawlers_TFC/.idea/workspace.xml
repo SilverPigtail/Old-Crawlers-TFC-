@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionTypeString.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioKeeper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadGameFromLoading.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +143,10 @@
       <workItem from="1588254991603" duration="1198000" />
       <workItem from="1588266795529" duration="18000" />
       <workItem from="1588267584702" duration="4207000" />
+      <workItem from="1588345765924" duration="147000" />
+      <workItem from="1588346197915" duration="1235000" />
+      <workItem from="1588363289332" duration="11000" />
+      <workItem from="1588365219042" duration="3528000" />
     </task>
     <servers />
   </component>
