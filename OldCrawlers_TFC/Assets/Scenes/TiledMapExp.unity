@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 118698903}
   - component: {fileID: 118698902}
   - component: {fileID: 118698901}
+  - component: {fileID: 118698907}
   m_Layer: 0
   m_Name: EnemySnake 2
   m_TagString: Enemy
@@ -181,9 +182,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013370809, y: -0.1230758}
+  m_Offset: {x: 0.09358381, y: -0.10158248}
   serializedVersion: 2
-  m_Radius: 0.19919418
+  m_Radius: 0.29949373
 --- !u!50 &118698904
 Rigidbody2D:
   serializedVersion: 4
@@ -267,6 +268,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118698907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118698900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200d7aff26bc433479a0ff7f01464f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &368953877
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +362,7 @@ GameObject:
   - component: {fileID: 385027786}
   - component: {fileID: 385027788}
   - component: {fileID: 385027789}
+  - component: {fileID: 385027790}
   m_Layer: 0
   m_Name: KnightPlayer
   m_TagString: Player
@@ -375,7 +389,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!4 &385027787
 Transform:
@@ -421,6 +435,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+--- !u!114 &385027790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385027785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a6ed73b1a52b04b86be5636bae21ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHP: 50
+  maxHP: 50
 --- !u!1 &389416515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9777,6 +9805,7 @@ GameObject:
   - component: {fileID: 2013331751}
   - component: {fileID: 2013331754}
   - component: {fileID: 2013331750}
+  - component: {fileID: 2013331756}
   m_Layer: 0
   m_Name: EnemySnake
   m_TagString: Enemy
@@ -9813,9 +9842,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013370809, y: -0.1230758}
+  m_Offset: {x: 0.057123598, y: -0.1230758}
   serializedVersion: 2
-  m_Radius: 0.19919418
+  m_Radius: 0.31382284
 --- !u!50 &2013331752
 Rigidbody2D:
   serializedVersion: 4
@@ -9835,7 +9864,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!4 &2013331753
 Transform:
@@ -9918,6 +9947,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2013331756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013331749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200d7aff26bc433479a0ff7f01464f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2079855335
 GameObject:
   m_ObjectHideFlags: 0
