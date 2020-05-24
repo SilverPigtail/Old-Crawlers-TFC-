@@ -6,38 +6,46 @@ using UnityEngine.SceneManagement;
 
 public class HurtCharacter : MonoBehaviour
 {
-    private float timeWaited = 2f;
-    private bool rel;
+    private HealthSystem healthSystem;
+    private float timeWaitedDamage = 0.5f;
+    private bool isColliding;
+    [SerializeField] private int damageGiven = 10;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthSystem = FindObjectOfType<HealthSystem>();
     }
 
     // Update is called once per frame
     void Update()
     {
-      /*  if (rel)
+        if (isColliding)
         {
-            timeWaited -= Time.deltaTime;
-            if (timeWaited <= 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-        } */
-        
+          timeWaitedDamage -= Time.deltaTime;
+          if (timeWaitedDamage <= 0)
+          {
+              healthSystem.HurtCharacter(damageGiven);
+              timeWaitedDamage = 0.5f;
+
+          }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.tag == "Player") // You can use <<other.collider.compareTag("Player")>> to make this condition.
         {
-            //other.gameObject.SetActive(false);
-            other.gameObject.GetComponent<HealthSystem>().HurtCharacter(10);
-            //rel = true;
+            other.gameObject.GetComponent<HealthSystem>().HurtCharacter(damageGiven);
         }
     }
 
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.collider.tag == "Player")
+        {
+            isColliding = true;
 
+        }
+    }
 }
