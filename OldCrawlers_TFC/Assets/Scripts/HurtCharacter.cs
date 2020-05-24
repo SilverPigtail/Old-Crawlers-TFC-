@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class HurtCharacter : MonoBehaviour
 {
     private HealthSystem healthSystem;
-    private float timeWaitedDamage = 0.5f;
-    private bool isColliding;
+    public float timeWaitedDamage = 0.5f;
+    public bool isColliding;
     [SerializeField] private int damageGiven = 10;
     
     // Start is called before the first frame update
@@ -46,6 +46,15 @@ public class HurtCharacter : MonoBehaviour
         {
             isColliding = true;
 
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.collider.tag == "Player")
+        {
+            isColliding = false;
+            timeWaitedDamage = 2f;
         }
     }
 }
