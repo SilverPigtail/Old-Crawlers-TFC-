@@ -14,6 +14,7 @@
           <e p="HealthSystem.cs" t="Include" />
           <e p="HideColliderColor.cs" t="Include" />
           <e p="HurtCharacter.cs" t="Include" />
+          <e p="IngameMenu.cs" t="Include" />
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricMovement.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />

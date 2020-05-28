@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsometricCharacterRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadGameFromLoading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +170,8 @@
       <workItem from="1590319546894" duration="7000" />
       <workItem from="1590319572593" duration="6428000" />
       <workItem from="1590689884825" duration="6602000" />
-      <workItem from="1590699432152" duration="4662000" />
+      <workItem from="1590699432152" duration="4845000" />
+      <workItem from="1590707602645" duration="598000" />
     </task>
     <servers />
   </component>

@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\HideColliderColor.cs" />
     <Compile Include="Assets\Scripts\HurtCharacter.cs" />
+    <Compile Include="Assets\Scripts\IngameMenu.cs" />
     <Compile Include="Assets\Scripts\IsometricCharacterRenderer.cs" />
     <Compile Include="Assets\Scripts\IsometricMovement.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
