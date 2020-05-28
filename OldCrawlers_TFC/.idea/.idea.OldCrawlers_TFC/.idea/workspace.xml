@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionTypeString.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BarManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmountCount.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,11 +55,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BarManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AmmountCount.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +167,8 @@
       <workItem from="1590317830804" duration="1696000" />
       <workItem from="1590319546894" duration="7000" />
       <workItem from="1590319572593" duration="6428000" />
-      <workItem from="1590689884825" duration="6081000" />
+      <workItem from="1590689884825" duration="6602000" />
+      <workItem from="1590699432152" duration="4662000" />
     </task>
     <servers />
   </component>

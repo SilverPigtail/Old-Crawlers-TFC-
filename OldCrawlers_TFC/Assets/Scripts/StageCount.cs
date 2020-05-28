@@ -7,11 +7,15 @@ using TMPro;
 public class StageCount : MonoBehaviour
 {
     public TextMeshProUGUI textMesh;
+    private int sCount;
 
     // Start is called before the first frame update
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
+        sCount = PlayerPrefs.GetInt("StageCount");
+        textMesh.text = "Total stages: " + sCount.ToString();
+
     }
 
     // Update is called once per frame
@@ -19,15 +23,4 @@ public class StageCount : MonoBehaviour
     {
         
     }
-
-    public void AddAmmount(int ammount)
-    {
-        
-        textMesh.text = ammount.ToString();
-        
-        
-    }
-    
-   // public void 
-    
 }

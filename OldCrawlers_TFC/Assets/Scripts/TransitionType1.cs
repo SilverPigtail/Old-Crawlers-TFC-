@@ -15,14 +15,13 @@ public class TransitionType1 : MonoBehaviour
     private int[] numberToChoose = new int[] {1, 2, 3, 4, 5};
     private int generatedNumber;
 
-    private TextMeshProUGUI textMesh;
-    private int stageCount;
+    private int count;
     
     IEnumerator RecalculateRandom()
     {
         while (true)
         {
-            Debug.Log("Recalculando random de niveles...");
+            // Debug.Log("Recalculando random de niveles...");
             mapRandomValue = UnityEngine.Random.Range(0, 5);    
             yield return new WaitForSeconds(1);
         }
@@ -34,21 +33,21 @@ public class TransitionType1 : MonoBehaviour
     {
        
         StartCoroutine(RecalculateRandom());
+        count = PlayerPrefs.GetInt("StageCount");
 
-        /*stageCount = 0;
-        textMesh = GetComponent<TextMeshProUGUI>();*/
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-
-
+        count++;
+        PlayerPrefs.SetInt("StageCount", count);
+        
        //textMesh.text = stageCount.ToString();
        
         mapRandomValue = UnityEngine.Random.Range(0, 5);
         generatedNumber = numberToChoose[mapRandomValue];
             
-            Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
+           // Debug.Log("Número aleatorio;: " + mapRandomValue + ", número escogido de la lista " + generatedNumber);
 
 
             if (SceneManager.GetActiveScene().buildIndex == generatedNumber)

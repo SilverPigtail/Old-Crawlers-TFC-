@@ -20,31 +20,6 @@ public class StageText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 1)
-        {
-            textMeSh.text = "Room 1";
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            textMeSh.text = "Room 2";
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 3)
-        {
-            textMeSh.text = "Room 3";
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 4)
-        {
-            textMeSh.text = "Room 4";
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 5)
-        {
-            textMeSh.text = "Room 5";
-        }
-        
-       
+        textMeSh.text = "Room " + SceneManager.GetActiveScene().buildIndex;
     }
 }

@@ -10,7 +10,8 @@ public class MainMenu : MonoBehaviour
    public void PlayGame()
    {
       PlayerPrefs.SetInt("CharacterLive", 50);
-
+      PlayerPrefs.SetInt("StageCount", 0);
+      
       if (SceneManager.GetActiveScene().buildIndex == 0)
       {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +6);
