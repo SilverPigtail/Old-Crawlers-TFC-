@@ -11,7 +11,7 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHP = PlayerPrefs.GetInt("CharacterLive");
     }
 
     // Update is called once per frame
@@ -30,5 +30,14 @@ public class HealthSystem : MonoBehaviour
             
         }
         
+        saveLive(currentHP);
+        
     }
+
+    public void saveLive(int value)
+    {
+        PlayerPrefs.SetInt("CharacterLive", value);
+    }
+
+
 }

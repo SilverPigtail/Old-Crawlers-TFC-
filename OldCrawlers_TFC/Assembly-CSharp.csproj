@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement1.cs" />
     <Compile Include="Assets\Scripts\RandomTransition.cs" />
+    <Compile Include="Assets\Scripts\StageCount.cs" />
     <Compile Include="Assets\Scripts\StageText.cs" />
     <Compile Include="Assets\Scripts\TransitionType1.cs" />
     <Compile Include="Assets\Scripts\TransitionType2.cs" />

@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
+using TMPro;
 
 public class TransitionType1 : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class TransitionType1 : MonoBehaviour
     private int[] numberToChoose = new int[] {1, 2, 3, 4, 5};
     private int generatedNumber;
 
+    private TextMeshProUGUI textMesh;
+    private int stageCount;
     
     IEnumerator RecalculateRandom()
     {
@@ -29,14 +32,18 @@ public class TransitionType1 : MonoBehaviour
     
     private void Start()
     {
-
+       
         StartCoroutine(RecalculateRandom());
+
+        /*stageCount = 0;
+        textMesh = GetComponent<TextMeshProUGUI>();*/
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        
-        
+
+
+       //textMesh.text = stageCount.ToString();
        
         mapRandomValue = UnityEngine.Random.Range(0, 5);
         generatedNumber = numberToChoose[mapRandomValue];

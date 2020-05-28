@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+   
+   
    public void PlayGame()
    {
+      PlayerPrefs.SetInt("CharacterLive", 50);
 
       if (SceneManager.GetActiveScene().buildIndex == 0)
       {
