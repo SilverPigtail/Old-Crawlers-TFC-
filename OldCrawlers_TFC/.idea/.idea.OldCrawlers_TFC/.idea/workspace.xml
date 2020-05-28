@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioKeeper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StageText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsometricCharacterRenderer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BarManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
       </list>
     </option>
   </component>
@@ -160,7 +162,8 @@
       <workItem from="1590317505946" duration="172000" />
       <workItem from="1590317830804" duration="1696000" />
       <workItem from="1590319546894" duration="7000" />
-      <workItem from="1590319572593" duration="5933000" />
+      <workItem from="1590319572593" duration="6428000" />
+      <workItem from="1590689884825" duration="660000" />
     </task>
     <servers />
   </component>

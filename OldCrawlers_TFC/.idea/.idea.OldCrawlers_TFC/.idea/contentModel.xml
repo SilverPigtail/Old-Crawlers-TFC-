@@ -22,6 +22,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovement1.cs" t="Include" />
           <e p="RandomTransition.cs" t="Include" />
+          <e p="StageText.cs" t="Include" />
           <e p="TransitionType1.cs" t="Include" />
           <e p="TransitionType2.cs" t="Include" />
           <e p="TransitionType3.cs" t="Include" />
