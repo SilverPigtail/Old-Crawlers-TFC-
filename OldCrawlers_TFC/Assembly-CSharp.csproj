@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\IngameMenu.cs" />
     <Compile Include="Assets\Scripts\IsometricCharacterRenderer.cs" />
     <Compile Include="Assets\Scripts\IsometricMovement.cs" />
+    <Compile Include="Assets\Scripts\KeepVolume.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\LoadGameFromLoading.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement1.cs" />
     <Compile Include="Assets\Scripts\RandomTransition.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\StageCount.cs" />
     <Compile Include="Assets\Scripts\StageText.cs" />
     <Compile Include="Assets\Scripts\TransitionType1.cs" />

@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioKeeper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StageCount.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsometricCharacterRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadGameFromLoading.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeepVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType2.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,10 +61,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmountCount.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeepVolume.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" />
       </list>
     </option>
   </component>
@@ -171,7 +175,7 @@
       <workItem from="1590319572593" duration="6428000" />
       <workItem from="1590689884825" duration="6602000" />
       <workItem from="1590699432152" duration="4845000" />
-      <workItem from="1590707602645" duration="598000" />
+      <workItem from="1590707602645" duration="4120000" />
     </task>
     <servers />
   </component>
@@ -204,5 +208,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590317675566" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590710417881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590710417881" />
   </component>
 </project>
