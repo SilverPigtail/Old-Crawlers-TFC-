@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\AudioKeeper.cs" />
     <Compile Include="Assets\Scripts\BarManager.cs" />
     <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\CollideHurt.cs" />
+    <Compile Include="Assets\Scripts\DestroyEnemiesKey.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementIA.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\HideColliderColor.cs" />

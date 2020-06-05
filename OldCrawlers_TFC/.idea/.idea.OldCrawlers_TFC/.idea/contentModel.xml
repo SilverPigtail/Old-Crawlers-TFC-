@@ -11,6 +11,8 @@
           <e p="AudioKeeper.cs" t="Include" />
           <e p="BarManager.cs" t="Include" />
           <e p="CharacterController.cs" t="Include" />
+          <e p="CollideHurt.cs" t="Include" />
+          <e p="DestroyEnemiesKey.cs" t="Include" />
           <e p="EnemyMovementIA.cs" t="Include" />
           <e p="HealthSystem.cs" t="Include" />
           <e p="HideColliderColor.cs" t="Include" />
