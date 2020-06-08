@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class CollideHurt : MonoBehaviour
 {
+    public int damageGiven = 2;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,10 @@ public class CollideHurt : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Destroy(other.gameObject);
+            NpcHealthSystem npcHealthS;
+            npcHealthS = other.gameObject.GetComponent<NpcHealthSystem>();
+            
+            npcHealthS.HurtNpc(damageGiven);
         }
     }
 }

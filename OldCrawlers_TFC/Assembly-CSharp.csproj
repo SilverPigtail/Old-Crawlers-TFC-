@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\CollideHurt.cs" />
     <Compile Include="Assets\Scripts\DestroyEnemiesKey.cs" />
+    <Compile Include="Assets\Scripts\EndgameIndicator.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementIA.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\HideColliderColor.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\LoadGameFromLoading.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\newMovement\PController.cs" />
+    <Compile Include="Assets\Scripts\NpcHealthSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement1.cs" />

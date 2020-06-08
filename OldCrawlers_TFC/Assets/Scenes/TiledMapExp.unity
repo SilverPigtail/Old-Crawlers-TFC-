@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 118698901}
   - component: {fileID: 118698907}
   - component: {fileID: 118698908}
+  - component: {fileID: 118698909}
   m_Layer: 0
   m_Name: EnemySnake 2
   m_TagString: Enemy
@@ -149,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEnemyDistance: 3
   minEnemyDistance: 0.75
-  enemySpeed: 2
+  enemySpeed: 1.5
   respawnPosition: {fileID: 1857818493}
 --- !u!95 &118698902
 Animator:
@@ -281,9 +282,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200d7aff26bc433479a0ff7f01464f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeWaitedDamage: 2
+  timeWaitedDamage: 1
   isColliding: 0
-  damageGiven: 1
+  damageGiven: 5
 --- !u!61 &118698908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -310,6 +311,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6394006, y: 0.6990416}
   m_EdgeRadius: 0
+--- !u!114 &118698909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118698900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbc1b041bc94344596cbba125672b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NpcCurrentHP: 10
+  NpcMaxHP: 10
 --- !u!1 &153211467
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +456,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.6}
+  m_Size: {x: 0.35, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &157408257
 MonoBehaviour:
@@ -455,6 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e675f842c973649b3ee0dc294ffd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageGiven: 2
 --- !u!1 &204766632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,7 +1423,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 675938012}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1051853209}
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &675938012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1499,7 +1526,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 0.15}
+  m_Size: {x: 0.6, y: 0.35}
   m_EdgeRadius: 0
 --- !u!114 &828307136
 MonoBehaviour:
@@ -1513,6 +1540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e675f842c973649b3ee0dc294ffd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageGiven: 2
 --- !u!1 &960753024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1619,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 960753027}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1051853209}
+        m_MethodName: ReturnToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &960753027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11629,6 +11668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e675f842c973649b3ee0dc294ffd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageGiven: 2
 --- !u!1 &1793762622
 GameObject:
   m_ObjectHideFlags: 0
@@ -11685,7 +11725,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 0.15}
+  m_Size: {x: 0.6, y: 0.35}
   m_EdgeRadius: 0
 --- !u!114 &1793762625
 MonoBehaviour:
@@ -11699,6 +11739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e675f842c973649b3ee0dc294ffd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageGiven: 2
 --- !u!1 &1801984421
 GameObject:
   m_ObjectHideFlags: 0
@@ -11710,6 +11751,7 @@ GameObject:
   - component: {fileID: 1801984422}
   - component: {fileID: 1801984424}
   - component: {fileID: 1801984423}
+  - component: {fileID: 1801984425}
   m_Layer: 5
   m_Name: RemainingEnemiesText
   m_TagString: Untagged
@@ -11854,6 +11896,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801984421}
   m_CullTransparentMesh: 0
+--- !u!114 &1801984425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801984421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71e60a6db0c6b643adb298c3cfe42ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1849881234
 GameObject:
   m_ObjectHideFlags: 0
@@ -12062,7 +12116,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1934211820}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1051853209}
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1934211820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12113,6 +12178,7 @@ GameObject:
   - component: {fileID: 2013331754}
   - component: {fileID: 2013331750}
   - component: {fileID: 2013331756}
+  - component: {fileID: 2013331758}
   - component: {fileID: 2013331757}
   m_Layer: 0
   m_Name: EnemySnake
@@ -12135,7 +12201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEnemyDistance: 3
   minEnemyDistance: 0.75
-  enemySpeed: 2
+  enemySpeed: 1.5
   respawnPosition: {fileID: 1900261032}
 --- !u!58 &2013331751
 CircleCollider2D:
@@ -12267,9 +12333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200d7aff26bc433479a0ff7f01464f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeWaitedDamage: 0.5
+  timeWaitedDamage: 1
   isColliding: 0
-  damageGiven: 25
+  damageGiven: 5
 --- !u!61 &2013331757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12296,6 +12362,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6394006, y: 0.6990416}
   m_EdgeRadius: 0
+--- !u!114 &2013331758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013331749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbc1b041bc94344596cbba125672b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NpcCurrentHP: 10
+  NpcMaxHP: 10
 --- !u!1 &2079855335
 GameObject:
   m_ObjectHideFlags: 0

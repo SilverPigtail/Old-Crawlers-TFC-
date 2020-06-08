@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
       PlayerPrefs.SetInt("CharacterLive", 50);
       PlayerPrefs.SetInt("StageCount", 0);
       //PlayerPrefs.SetFloat("TrackVolume", -80);
+      PlayerPrefs.SetInt("EnemyCount", Random.Range(10, 15));
       
       if (SceneManager.GetActiveScene().buildIndex == 0)
       {
