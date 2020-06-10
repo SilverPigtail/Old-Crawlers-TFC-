@@ -10,8 +10,6 @@ public class NpcHealthSystem : MonoBehaviour
 
     private int enemyCount;
     
-    private EndgameIndicator endgameIndicator;
-    
     // Start is called before the first frame update
     void Start()
     {

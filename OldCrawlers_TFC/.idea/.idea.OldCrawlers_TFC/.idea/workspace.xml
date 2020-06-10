@@ -30,10 +30,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioKeeper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StageText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HideColliderColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionType3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsometricCharacterRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadGameFromLoading.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsometricMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeepVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndgameIndicator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,7 +62,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmountCount.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
@@ -76,8 +77,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BarManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NpcHealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndgameIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NpcHealthSystem.cs" />
       </list>
     </option>
   </component>
@@ -194,7 +196,8 @@
       <workItem from="1591355683617" duration="64000" />
       <workItem from="1591466804187" duration="2537000" />
       <workItem from="1591579201776" duration="2778000" />
-      <workItem from="1591630604365" duration="2510000" />
+      <workItem from="1591630604365" duration="2719000" />
+      <workItem from="1591746270736" duration="8377000" />
     </task>
     <servers />
   </component>

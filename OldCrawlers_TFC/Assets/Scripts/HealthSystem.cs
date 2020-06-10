@@ -30,11 +30,11 @@ public class HealthSystem : MonoBehaviour
             
         }
         
-        saveLive(currentHP);
+        saveLife(currentHP);
         
     }
 
-    public void saveLive(int value)
+    public void saveLife(int value)
     {
         PlayerPrefs.SetInt("CharacterLive", value);
     }
