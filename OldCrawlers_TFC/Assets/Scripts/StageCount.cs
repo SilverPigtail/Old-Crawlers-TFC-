@@ -4,12 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+
+/***
+ * This script will set the stage counter of the interface. 
+ */
 public class StageCount : MonoBehaviour
 {
+    /***
+     * textMesh -> The text object of the interface.
+     */
     public TextMeshProUGUI textMesh;
+
+    /***
+     * sCount -> the stage count parameter.
+     */
     private int sCount;
 
-    // Start is called before the first frame update
+    /***
+     * This function is called when the scene loads. It gets the textmesh object and set the stage count on it based on
+     * the stageCount value of the PlayerPrefs library.
+     */
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();

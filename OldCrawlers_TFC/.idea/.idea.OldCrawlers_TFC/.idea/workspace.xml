@@ -60,26 +60,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadGameFromLoading.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmountCount.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeepVolume.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/newMovement/PController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyEnemiesKey.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCHealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollideHurt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionType1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HideColliderColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovementIA.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HurtCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IngameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NpcHealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BarManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollideHurt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndgameIndicator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NpcHealthSystem.cs" />
       </list>
     </option>
   </component>
@@ -198,6 +199,8 @@
       <workItem from="1591579201776" duration="2778000" />
       <workItem from="1591630604365" duration="2719000" />
       <workItem from="1591746270736" duration="8377000" />
+      <workItem from="1591833381227" duration="713000" />
+      <workItem from="1592479953594" duration="14414000" />
     </task>
     <servers />
   </component>

@@ -8,14 +8,34 @@ using UnityEngine;
 
 public class EnemyMovementIA : MonoBehaviour
 {
+    /**
+     * maxEenemyDistance -> maximum distance between the player and the enemy.
+     */
     [SerializeField] private float maxEnemyDistance;
 
+    /**
+     * minimum distance between the player and the enemy.
+     */
     [SerializeField] private float minEnemyDistance;
     
+    /**
+     * enemySpeed -> the speed of the enemy movement.
+     */
     [SerializeField] private float enemySpeed;
     
+    /**
+     * enemyAnim -> Animator of the enemy model and animations.
+     */
     private Animator enemyAnim;
+    
+    /**
+     * targetFollow -> the target that the enemy will seek (in this case, the player).
+     */
     private Transform targetFollow;
+    
+    /**
+     * respawnPosition -> the position that the enemy return when it lost the target.
+     */
     public Transform respawnPosition;
     
     
