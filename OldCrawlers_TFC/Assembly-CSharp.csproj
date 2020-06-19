@@ -63,37 +63,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AmmountCount.cs" />
     <Compile Include="Assets\Scripts\AudioKeeper.cs" />
     <Compile Include="Assets\Scripts\BarManager.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\CollideHurt.cs" />
-    <Compile Include="Assets\Scripts\DestroyEnemiesKey.cs" />
     <Compile Include="Assets\Scripts\EndgameIndicator.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementIA.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\HideColliderColor.cs" />
     <Compile Include="Assets\Scripts\HurtCharacter.cs" />
     <Compile Include="Assets\Scripts\IngameMenu.cs" />
-    <Compile Include="Assets\Scripts\IsometricCharacterRenderer.cs" />
-    <Compile Include="Assets\Scripts\IsometricMovement.cs" />
-    <Compile Include="Assets\Scripts\KeepVolume.cs" />
-    <Compile Include="Assets\Scripts\LevelLoader.cs" />
-    <Compile Include="Assets\Scripts\LoadGameFromLoading.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\newMovement\PController.cs" />
     <Compile Include="Assets\Scripts\NpcHealthSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement1.cs" />
-    <Compile Include="Assets\Scripts\RandomTransition.cs" />
     <Compile Include="Assets\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\StageCount.cs" />
     <Compile Include="Assets\Scripts\StageText.cs" />
     <Compile Include="Assets\Scripts\TransitionType1.cs" />
-    <Compile Include="Assets\Scripts\TransitionType2.cs" />
-    <Compile Include="Assets\Scripts\TransitionType3.cs" />
-    <Compile Include="Assets\Scripts\TransitionTypeString.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
